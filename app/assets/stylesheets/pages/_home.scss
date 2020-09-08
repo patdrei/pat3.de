@@ -1,1 +1,111 @@
 // Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;600&display=swap');
+
+
+body {
+  background-color: white;
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  color: #011936;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+}
+h1, h2, h3 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 600;
+  color: #465362;
+  font-size: 25px;
+  line-height: 30px;
+}
+.friends{
+  text-decoration: none;
+  background-color: #FC6471;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  padding: 12px 12px;
+  margin-bottom: 15px;
+  align-self: center;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.friends:hover{
+  font-size: 18px;
+  background-color: #5EFC8D;
+  color: black;
+}
+.container-personal{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.text-center {
+  text-align: center;
+}
+
+.pic {
+  align-self: center;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  width: 250px;
+  border: 10px solid #5EFC8D;
+  transition: 1.5s;
+}
+.pic:hover{
+  filter: grayscale(10%);
+}
+.card{
+  background-color: lightgrey;
+  margin: 20px;
+  box-shadow: 10px 10px #FC6471;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.card:hover > h1, .card:hover > h2{
+  color: #5EFC8D;
+}
+
+.card:hover {
+  box-shadow: 10px 10px #5EFC8D;
+  background-image:url(./main.gif);
+  color: #5EFC8D;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  align-self: center;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+li a {
+  display: block;
+  color: #FC6471;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+li a:hover {
+  display: block;
+  color: #5EFC8D;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 50px;
+}
+@media (max-width: 650px) {
+  /* For a screen < 960px, this CSS will be read */
+  .pic {
+    width: 200px;
+  }
+}

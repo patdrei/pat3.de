@@ -12,7 +12,13 @@
   </head>
 
   <body>
+    <% unless controller_name == "pages" %>
+
+    <br><br>
+
     <%= render 'shared/navbar' %>
+
+    <% end %>
     <%= render 'shared/flashes' %>
 
     <%= yield %>
