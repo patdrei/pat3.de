@@ -3,15 +3,13 @@
 @import "avatar";
 @import "navbar";
 
-//CoolCucumbers
+@import url('https://fonts.googleapis.com/css2?family=Montserrat Alternates:wght@300;600&display=swap');
 
-.card-cucumber:hover > h1, .card-cucumber:hover > h2{
-  color: #EF767A;
-  text-shadow: 2px 2px #618962;
+.index-card:hover > h1, .index-card:hover > h2{
   opacity: 0;
 }
 
-.card-cucumber{
+.index-card{
   background-color: lightgrey;
   margin: 20px;
   box-shadow: 10px 10px #FC6471;
@@ -25,29 +23,7 @@
   transition: 0.8s;
 }
 
-.card-cucumber:hover {
-  box-shadow: 10px 10px #618962;
-  background-image:url(CoCu.gif);
-  background-size: contain;
-  color: #618962;
-}
-
-.card-cucumber:hover .pic{
-  width: 70px;
-  margin-top: 230px;
-  filter: grayscale(10%);
-  border: none;
-  border-radius: 0px;
-}
-
-.card-cucumber:hover .friends{
-  background-color: #618962;
-  border-radius: 20px;
-  font-family: 'Roboto', sans-serif;
-
-  }
-
-.card-cucumber .pic{
+.index-card .pic{
   width: 100px;
   margin: 20px;
   filter: grayscale(40%);
@@ -55,7 +31,7 @@
   border-radius: 0px;
 }
 
-.card-cucumber .friends{
+.index-card .friends{
   text-decoration: none;
   background-color: #FC6471;
   font-weight: 600;
@@ -67,4 +43,110 @@
   transition: 0.3s;
   width: 100%;
   text-align: center;
+  border-radius: 10px 10px 0 0;
 }
+
+//CoolCucumbers
+
+#cucumber .index-card:hover {
+  box-shadow: 10px 10px #618962;
+  background-image:url(CoCu.gif);
+  background-size: contain;
+  color: #618962;
+}
+
+#cucumber .index-card:hover .pic{
+  width: 70px;
+  margin-top: 230px;
+  filter: grayscale(10%);
+  border: none;
+  border-radius: 0px;
+}
+
+#cucumber .index-card:hover .friends{
+  background-color: #618962;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  }
+
+// CrazyCakeClub
+
+#cake .index-card:hover {
+  box-shadow: 10px 10px #751A2B;
+  background-image:url(CoCu.gif);
+  background-size: contain;
+  color: #751A2B;
+}
+
+#cake .index-card:hover .pic{
+  width: 70px;
+  margin-top: 230px;
+  filter: grayscale(10%);
+  border: none;
+  border-radius: 0px;
+  fill: #751A2B;
+}
+
+#cake .index-card:hover .friends{
+  background-color: #182915;
+  border-radius: 10px;
+  color: #FFD6DA;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+
+  }
+
+.des-box{
+  background-color: dark-grey;
+  border: solid #FC6471;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  transition: 0.8s;
+  text-align: center;
+  color: rgba(5, 5, 5, 1);
+}
+
+
+#cucumber .index-card:hover .des-box{
+  border-radius: 20px;
+  border: solid #618962;
+  background: rgba(245, 245, 245, 0.5);
+  backdrop-filter: blur(6px);
+  margin-top: 15px;
+  color: rgba(5, 5, 5, 1);
+}
+
+
+#cake .index-card:hover .des-box{
+  border-radius: 10px;
+  border: solid #182915;
+  background: #FFD6DA;
+  opacity: 0.7;
+  backdrop-filter: blur(6px);
+  margin-top: 15px;
+  color: rgba(5, 5, 5, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
