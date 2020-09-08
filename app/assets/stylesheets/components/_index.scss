@@ -2,3 +2,69 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+//CoolCucumbers
+
+.card-cucumber:hover > h1, .card-cucumber:hover > h2{
+  color: #EF767A;
+  text-shadow: 2px 2px #618962;
+  opacity: 0;
+}
+
+.card-cucumber{
+  background-color: lightgrey;
+  margin: 20px;
+  box-shadow: 10px 10px #FC6471;
+  padding: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.card-cucumber:hover {
+  box-shadow: 10px 10px #618962;
+  background-image:url(CoCu.gif);
+  background-size: contain;
+  color: #618962;
+}
+
+.card-cucumber:hover .pic{
+  width: 70px;
+  margin-top: 230px;
+  filter: grayscale(10%);
+  border: none;
+  border-radius: 0px;
+}
+
+.card-cucumber:hover .friends{
+  background-color: #618962;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+
+  }
+
+.card-cucumber .pic{
+  width: 100px;
+  margin: 20px;
+  filter: grayscale(40%);
+  border: none;
+  border-radius: 0px;
+}
+
+.card-cucumber .friends{
+  text-decoration: none;
+  background-color: #FC6471;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  padding: 12px 12px;
+  margin-bottom: 0px;
+  align-self: bottom;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
