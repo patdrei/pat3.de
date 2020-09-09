@@ -24,9 +24,8 @@
 }
 
 .index-card .pic{
-  width: 100px;
+  height: 100px;
   margin: 20px;
-  filter: grayscale(40%);
   border: none;
   border-radius: 0px;
 }
@@ -46,57 +45,13 @@
   border-radius: 10px 10px 0 0;
 }
 
-//CoolCucumbers
-
-#cucumber .index-card:hover {
-  box-shadow: 10px 10px #618962;
-  background-image:url(CoCu.gif);
-  background-size: contain;
-  color: #618962;
-}
-
-#cucumber .index-card:hover .pic{
-  width: 70px;
+.index-card:hover .pic{
+  height: 70px;
   margin-top: 230px;
   filter: grayscale(10%);
   border: none;
   border-radius: 0px;
 }
-
-#cucumber .index-card:hover .friends{
-  background-color: #618962;
-  border-radius: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-
-  }
-
-// CrazyCakeClub
-
-#cake .index-card:hover {
-  box-shadow: 10px 10px #751A2B;
-  background-image:url(CoCu.gif);
-  background-size: contain;
-  color: #751A2B;
-}
-
-#cake .index-card:hover .pic{
-  width: 70px;
-  margin-top: 230px;
-  filter: grayscale(10%);
-  border: none;
-  border-radius: 0px;
-  fill: #751A2B;
-}
-
-#cake .index-card:hover .friends{
-  background-color: #182915;
-  border-radius: 10px;
-  color: #FFD6DA;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 400;
-
-  }
 
 .des-box{
   background-color: dark-grey;
@@ -111,15 +66,50 @@
   color: rgba(5, 5, 5, 1);
 }
 
+//CoolCucumbers
 
-#cucumber .index-card:hover .des-box{
+#cucumber .index-card:hover {
+  box-shadow: 10px 10px #618962;
+  background-image:url(CoCu.gif);
+  background-size: contain;
+  color: #618962;
+}
+
+
+#cucumber .index-card:hover .friends{
+  background-color: #618962;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  }
+
+  #cucumber .index-card:hover .des-box{
   border-radius: 20px;
   border: solid #618962;
-  background: rgba(245, 245, 245, 0.5);
+  background: rgba(245, 245, 245, 0.7);
   backdrop-filter: blur(6px);
   margin-top: 15px;
   color: rgba(5, 5, 5, 1);
 }
+
+// CrazyCakeClub
+
+#cake .index-card:hover {
+  box-shadow: 10px 10px #751A2B;
+  background-image:url(crazycake.gif);
+  background-size: contain;
+  color: #751A2B;
+}
+
+#cake .index-card:hover .friends{
+  background-color: #182915;
+  border-radius: 10px;
+  color: #FFD6DA;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+
+  }
 
 
 #cake .index-card:hover .des-box{
@@ -132,18 +122,33 @@
   color: rgba(5, 5, 5, 1);
 }
 
+// Urban Coffee Club
 
+#ucc .index-card:hover {
+  box-shadow: 10px 10px #DE2027;
+  background-image:url(bonaverde.gif);
+  background-size: contain;
+  color: #DE2027;
+}
 
+#ucc .index-card:hover .friends{
+  background-color: #DE2027;
+  border-radius: 20px;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
 
+  }
 
-
-
-
-
-
-
-
-
+#ucc .index-card:hover .des-box{
+  border-radius: 20px;
+  border: solid #DE2027;
+  background: white;
+  opacity: 0.7;
+  backdrop-filter: blur(6px);
+  margin-top: 15px;
+  color: rgba(5, 5, 5, 1);
+}
 
 
 

@@ -1,8 +1,10 @@
     <div class="container-personal">
 
+      <div class="row">
+
       <% @projects.each do |project| %>
 
-      <div id="<%= project.html_id %>">
+      <div id="<%= project.html_id %>" class="col-12 col-lg-6">
       <div class="index-card" class="text-center">
         <h1 class="text-center mb-2"><%= project.name %></h1>
         <%= image_tag("#{project.image_address}", options = {class: "pic"}) %>
@@ -14,3 +16,4 @@
 
     <% end %>
     </div>
+</div>
